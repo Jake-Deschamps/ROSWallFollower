@@ -1,5 +1,5 @@
 <launch>
   <!-- turtlebot_teleop_key already has its own built in velocity smoother -->
-  <node pkg="wall_follow" type="nav_routine2.py" name="wall_follow_nav"  output="screen">
+  <node pkg="wall_follow" type="nav_routine.py" name="wall_follow_nav"  output="screen">
   </node>
 </launch>

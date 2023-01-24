@@ -1,5 +1,5 @@
 <launch>
   <!-- turtlebot_teleop_key already has its own built in velocity smoother -->
-  <node pkg="wall_follow" type="find_wall_service_server3.py" name="find_wall_server"  output="screen">
+  <node pkg="wall_follow" type="find_wall_service_server.py" name="find_wall_server"  output="screen">
   </node>
 </launch>

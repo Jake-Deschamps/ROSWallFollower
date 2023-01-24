@@ -1,5 +1,0 @@
-<launch>
-  <!-- turtlebot_teleop_key already has its own built in velocity smoother -->
-  <node pkg="wall_follow" type="turn_service_server.py" name="turn_server"  output="screen">
-  </node>
-</launch>
