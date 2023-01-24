@@ -1,0 +1,12 @@
+<launch>
+  <!-- turtlebot_teleop_key already has its own built in velocity smoother -->
+  <node pkg="wall_follow" type="find_wall_service_server3.py" name="find_wall_server"  output="screen">
+  </node>
+
+  <node pkg="wall_follow" type="odom_record_action_server.py" name="odom_recorder"  output="screen">
+  </node>
+  
+  <node pkg="wall_follow" type="nav_routine6.py" name="wall_follow_nav"  output="screen">
+  </node>
+
+</launch>

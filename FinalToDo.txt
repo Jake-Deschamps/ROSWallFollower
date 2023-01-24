@@ -1,0 +1,16 @@
+-Make sure PI control is actually needed
+-Track which files are actually being used. Perhaps retitle them or recomment them
+-Check comments for additional todos and add them here:
+-Obtain the following graphics:
+    -Use one of the debug programs to show the diagram of nodes and topics
+    -Use Visio to make the control loop
+-Test the slightly tweaked nav_routine7
+
+
+Plan:
+-Send email to construct to ask how this works:
+    -What date/time for availability
+    -What program I'll use to share my screen/call in
+    -Can I stream a ppt?
+    -What tone?
+-Make a first draft of the presentation to get the ball rolling!
